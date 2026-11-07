@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- AI DISCLOSURE: This page was created with help from Claude (an AI assistant by Anthropic). -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Application Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Step 3a: Page header -->
+  <header>
+    <h1>Mbarara University of Science and Technology</h1>
+    <span class="badge">Online Application Portal</span>
+  </header>
+
+  <!-- Step 3b: Login card -->
+  <main class="card">
+    <h2>Welcome Back</h2>
+    <p class="subtitle">Log in to access your application form</p>
+
+    <form action="#" method="post">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+
+      <a href="#">Forgot your password?</a>
+      <button type="submit" class="btn">Sign In</button>
+    </form>
+
+    <p class="center">New to this portal? <a href="#signup">Create an account</a></p>
+  </main>
+
+  <!-- Step 3c: Create Account popup -->
+  <div class="modal" id="signup">
+    <div class="modal-box">
+      <a href="#" class="close">X</a>
+      <h2>Create Account</h2>
+      <p class="subtitle">Provide your details to receive a temporary password.</p>
+
+      <form action="#" method="post">
+        <label for="surname">Surname</label>
+        <input type="text" id="surname" placeholder="Surname" required>
+
+        <label for="other">Other Names</label>
+        <input type="text" id="other" placeholder="Other Names" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+        <label for="email2">Email Address</label>
+        <input type="email" id="email2" placeholder="Enter your email" required>
+
+        <div class="btn-row">
+          <a href="#" class="btn-light">Close</a>
+          <button type="submit" class="btn">Create Account</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
